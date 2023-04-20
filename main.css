@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: rgb(61, 61, 55);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.screen{
+    width: 90%;
+    height: 15%;
+    background-color: grey;
+    text-align: right;
+}
+
+.numpad{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.numbers{
+    background-color: rgb(144, 133, 135);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5%;
+    margin: 5%;
+    padding: 2%;
+}
+
+.num{
+    background-color: rgb(236, 221, 221);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
